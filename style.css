@@ -1,0 +1,32 @@
+.pembe{
+    color: #e86ed0;
+}
+.glow:hover{
+    color: #e86ed0;
+    text-shadow: 1px 2px 5px #c9b0c5;
+    transform: translateY(-5px);
+}
+.yukari{
+    animation: bounceY 2s alternate infinite;
+}
+@keyframes bounceY{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
+.shadow-hover:hover{
+    box-shadow: 5px 5px 20px rgb(218, 217, 217);
+    cursor: pointer;
+}
+.zoom-bg{
+    transition: transform 0.5s ease;
+}
+.zoom-bg:hover{
+    transform: scale(1.04);
+}
