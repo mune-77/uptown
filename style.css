@@ -30,3 +30,36 @@
 .zoom-bg:hover{
     transform: scale(1.04);
 }
+.light{
+    color: #929191;
+}
+.light:hover{
+    cursor: pointer;
+    color: black;
+}
+.text-hover:hover{
+    cursor: pointer;
+    color: #e86ed0;
+}
+.home{
+    color: #4b4a4a;
+}
+.home:hover{
+    color: #e86ed0;
+    cursor: pointer;
+}
+.pembe-link{
+    color: #e86ed0;
+}
+.pembe-link:hover{
+    color: #e86ed0;
+    transform: scale(1.1);
+}
+.pulse:hover{
+     transform: scale(1.05);
+     cursor: pointer;
+}
+.button{
+    background-color: #e86ed0;
+    color: white;
+}
