@@ -63,3 +63,37 @@
     background-color: #e86ed0;
     color: white;
 }
+.gry{
+    color: #a7a6a6;
+}
+.gry-h{
+    color: #a7a6a6;
+}
+.gry-h:hover{
+    color: black;
+}
+.back{
+    width: 25px;
+    height: 25px;
+    background-color: #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666666;
+}
+.tag{
+    color: black;
+    font-size: 14px;
+    border: 1px solid #c4c3c3;
+}       
+.tag:hover{
+    border: 1px solid black;
+    transform: scale(1.02);
+}
+.reply{
+    background-color: #cecdcd;
+}
+.reply:hover{
+    color: white;
+    background-color: black;
+}
